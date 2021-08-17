@@ -29,6 +29,8 @@
        
  /*** ---___---___---___---___---___---___---___---___--- ____ My Solution   ___---___---___---___---___---___---___---___---___--- ***/
   
+  // The following Solution is without the use of Trie Data Structure........
+  
   import java.io.*;
   import java.util.*;
 
@@ -80,3 +82,4 @@
           return m;
       }
   }
+// Editorial link : - https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/
