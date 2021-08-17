@@ -1,9 +1,6 @@
 /*****  _______________________________________  Maximum XOR Subarray ____________________________________________ *****/
 //Comment Here......
   Medium Accuracy: 47.34%   Submissions: 13093 Points: 4
-..................................................................................................
-Editoriaal Link : https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/
-.................................................................................................
    
   Prob: Given an array arr[] of size, N. Find the subarray with maximum XOR. A subarray is a contiguous part of the array.
   
