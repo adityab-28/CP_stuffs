@@ -141,20 +141,7 @@
     }
 
   }
-  // } Driver Code Ends
-
-
-  /*Complete the function below
-  Node is as follows:
-  class Node{
-    int data;
-    Node left,right;
-    Node(int d){
-      data=d;
-      left=right=null;
-    }
-  }
-  */
+ 
   class GfG
   {
     boolean isCompleteBT(Node root)
@@ -176,3 +163,7 @@
             return true;
     } 
   }
+
+
+/**************----------------------- **************/
+// Problem link : - https://practice.geeksforgeeks.org/problems/complete-binary-tree/1/?category[]=Queue&category[]=Queue&problemStatus=unsolved&problemType=functional&page=1&sortBy=submissions&query=category[]QueueproblemStatusunsolvedproblemTypefunctionalpage1sortBysubmissionscategory[]Queue#
