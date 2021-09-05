@@ -4,7 +4,7 @@ Algo link: _https://cp-algorithms.com/_
 
 *Gfg Profile :* _https://auth.geeksforgeeks.org/user/adityabharti005sct/practice/_
 
-[<i class="fab fa-hackerrank"></i>](https://www.hackerrank.com/adityab_28)
+###[<i class="fab fa-hackerrank"></i> Hackerrank Profile](https://www.hackerrank.com/adityab_28)
 ...
 
 ---
