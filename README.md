@@ -4,10 +4,9 @@ Algo link: _https://cp-algorithms.com/_
 
 *Gfg Profile :* _https://auth.geeksforgeeks.org/user/adityabharti005sct/practice/_
 
-### [<i class="fab fa-hackerrank"></i> Hackerrank Profile](https://www.hackerrank.com/adityab_28)
-{: #hacker-rank}
-### <i class="fab fa-gitlab fa-fw" style="color:rgb(107,79,187); font-size:.85em" aria-hidden="true"></i> Purple GitLab Tanuki
-{: #tanuki-purple}
+[Hackerrank Profile](https://www.hackerrank.com/adityab_28)
+
+
 
 ---
 Ascii Table:
