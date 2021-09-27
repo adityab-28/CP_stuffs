@@ -82,8 +82,8 @@ Expected Auxilliary Space: O(N) recursive.**
 ```
 
 > **Logic**
-<div width="200" height="200" align="center">
+<p align="center">
  ![image](https://user-images.githubusercontent.com/72013227/134977074-8b57a545-589c-4ca0-936e-92b3174a3590.png)
-</div>
+</p>
 
-|[Problem Link](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#).|
+| [Problem Link](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#). |
