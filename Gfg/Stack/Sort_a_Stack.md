@@ -1,6 +1,6 @@
 <h2 align="center">Sort a stack</h2>
 
-##### _Easy Accuracy: 50.51% Submissions: 51803 Points: 2_
+> _Easy Accuracy: 50.51% Submissions: 51803 Points: 2_
 
 Given a stack, the task is to sort it such that the top of the stack has the greatest element.
 
@@ -82,9 +82,8 @@ Expected Auxilliary Space: O(N) recursive.**
 ```
 
 > **Logic**
-<p>
- <img width="200" scr = "https://user-images.githubusercontent.com/72013227/134968679-552daa40-5520-43be-b7f9-481c6b0181a6.png" alt="hint-image">
-</p>
----
+<div width="200" height="200" align="center">
+ ![image](https://user-images.githubusercontent.com/72013227/134977074-8b57a545-589c-4ca0-936e-92b3174a3590.png)
+</div>
 
-[Problem Link](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#).
+|[Problem Link](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#).|
