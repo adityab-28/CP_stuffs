@@ -1,6 +1,6 @@
 <h2 align="center">Sort a stack</h2>
 
-> _Easy Accuracy: 50.51% Submissions: 51803 Points: 2_
+##### _Easy Accuracy: 50.51% Submissions: 51803 Points: 2_
 
 Given a stack, the task is to sort it such that the top of the stack has the greatest element.
 
@@ -18,17 +18,19 @@ Output: 41 32 11 3 2
 ```   
 
 > **Task:**
-You don't have to read input or print anything.
-The task is to complete the function sort() which sorts the elements present in the given stack.
+
+You don't have to read input or print anything.<br>
+The task is to complete the function sort() which sorts the elements present in the given stack.<br>
 _(The sorted stack is printed by the driver's code by popping the elements of the stack.)_
 
 
-**Expected Time Complexity: O(N*N)
+**Expected Time Complexity: O(N*N) <br>
 Expected Auxilliary Space: O(N) recursive.**
 
-> Constraints:
-> 1<=N<=100
- 
+**Constraints:**
+  1<=N<=100
+
+
 > **JAVA Solution Code**  
 ```
   import java.util.Scanner;
@@ -79,10 +81,10 @@ Expected Auxilliary Space: O(N) recursive.**
   }
 ```
 
-<hr>
 > **Logic**
-
-![image](https://user-images.githubusercontent.com/72013227/134968679-552daa40-5520-43be-b7f9-481c6b0181a6.png)
+<p>
+ <img width="200" scr = "https://user-images.githubusercontent.com/72013227/134968679-552daa40-5520-43be-b7f9-481c6b0181a6.png" alt="hint-image">
+</p>
 ---
 
 [Problem Link](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#).
