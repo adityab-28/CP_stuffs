@@ -1,51 +1,52 @@
-/*****  _______________________________________  Maximum path sum from any node  ____________________________________________ *****/
-//Comment Here......
+<h3 align="center">Maximum path sum from any node</h2>
    
-    Medium Accuracy: 48.39% Submissions: 14398 Points: 4
-      Given a binary tree, the task is to find the maximum path sum. The path may start and end at any node in the tree.
+> _Medium Accuracy: 48.39% Submissions: 14398 Points: 4_
 
-      Example 1:
+**`Prob`:** Given a binary tree, the task is to find the maximum path sum. The path may start and end at any node in the tree.
 
-        Input:
-             10
-            /  \
-           2   -25
-          / \  /  \
-         20 1  3  4
-        Output: 32
-        Explanation: Path in the given tree goes
-        like 10 , 2 , 20 which gives the max
-        sum as 32.
-      
-      Example 2:
-        Input:
-             10
-           /    \
-          2      5
-                  \
-                  -2
-        Output: 17
-        Explanation: Path in the given tree goes
-        like 2 , 10 , 5 which gives the max sum
-        as 17.
-      Your Task:
-        You don't need to take input or print anything. Your task is to complete the function findMaxSum() that takes root as input and returns max sum between any two nodes in the given Binary Tree.
+Example 1:
+```
+Input:
+     10
+    /  \
+   2   -25
+  / \  /  \
+ 20 1  3  4
+Output: 32
+Explanation: Path in the given tree goes
+like 10 , 2 , 20 which gives the max
+sum as 32.
+```
 
-      Expected Time Complexity: O(N).
-      Expected Auxiliary Space: O(Height of the Tree).
+Example 2:
+```Input:
+     10
+   /    \
+  2      5
+	  \
+	  -2
+Output: 17
+Explanation: Path in the given tree goes
+like 2 , 10 , 5 which gives the max sum
+as 17.
+```
 
-      Constraints:
-        1 ≤ Number of nodes ≤ 103
-        1 ≤ |Data on node| ≤ 104
+**Task:**<br>
+ To complete the function `findMaxSum()` that takes root as input and returns max sum between any two nodes in the given Binary Tree.
 
-      Company Tags
-       Facebook Google
-      Topic Tags
-       Tree
-//comment ends ...
+**Expected Time Complexity: O(N).<br>
+Expected Auxiliary Space: O(Height of the Tree).**
 
-      /*** ---___---___---___---___---___---___---___---___--- ____ My Solution   ___---___---___---___---___---___---___---___---___--- ***/
-  
+***Constraints:***
+- _1 ≤ Number of nodes ≤ 103_
+- _1 ≤ |Data on node| ≤ 104_
+
+> **JAVA SOLUTION CODE**
+
+<p><details>
+<summary>Driver Code</> (Click to Expand) :point_down: </summary>
+
+```java
 import java.util.LinkedList; 
 import java.util.Queue; 
 import java.io.*;
@@ -143,20 +144,23 @@ class GfG {
 	            System.out.println(sum);
 	        }
 	}
-}// } Driver Code Ends
-
-
-/*
-Node defined as
-class Node{
-    int data;
-    Node left,right;
-    Node(int d){
-        data=d;
-        left=right=null;
-    }
 }
-*/
+
+```
+</details>
+</p>
+
+```Java
+
+//Node defined as
+//class Node{
+//    int data;
+//    Node left,right;
+//    Node(int d){
+//        data=d;
+//        left=right=null;
+//    }
+//}
 
 class Solution
 {
@@ -185,4 +189,20 @@ class Solution
     }
     
 }
+
+```
+<br>
+<hr>
+
+> ***Comments:***
+
+_For each node there can be four ways that the max path goes through the node:_
+1. _Node only_
+2. _Max path through Left Child + Node_
+3. _Max path through Right Child + Node_
+4. _Max path through Left Child + Node + Max path through Right Child_
+
+_The idea is to keep trace of four paths and pick up the max one in the end. An important thing to note is, root of every subtree needs to return maximum path sum such that at most one child of root is involved.
+<br>This is needed for parent function call._
+
 
