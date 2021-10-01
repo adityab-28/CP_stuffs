@@ -42,7 +42,7 @@ Expected Auxiliary Space:  O(n)**
 - _0 <= Ai <= 107_
 
 
-> ** JavaScript Solution Code**
+> **JavaScript Solution Code**
 
 <p>
 <details>
@@ -50,7 +50,7 @@ Expected Auxiliary Space:  O(n)**
 
 These details <em>remain</em> <strong>hidden</strong> until expanded.
 
-<pre><code>
+```javaScript
 'use strict';
 
 process.stdin.resume();
@@ -104,7 +104,7 @@ function main() {
  javaScript
   //Initial Template for javascript
  'use strict';
-</code></pre>
+```
 
 </details>
 </p>
@@ -132,12 +132,13 @@ class Solution {
 
 ```
 
->> <b>Comments :-<b>
+> <b>Comments :-<b>
  
 `Logic/Approach`<br>
 - The  main catch in this problem is to traverse from back-side. If we try to see from left to right, the it will be very difficult to find any soltion with time complexed O(n) time complexity.
 
 - So, Traverse all the elements from right to left in array and check whether the current element is greater than the maximum stored till now.
+
 
 ---
 
