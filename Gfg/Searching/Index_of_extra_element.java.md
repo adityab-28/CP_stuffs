@@ -1,8 +1,10 @@
 <h3 align="center"> Index of Extra Element </h3>
 
+##### `Arrays` `Searching`
+  
 > _Easy Accuracy: 50.04% Submissions: 54766 Points: 2_
 
-Given two sorted arrays of distinct elements. There is only 1 difference between the arrays. First array has one element extra added in between. Find the index of the extra element.
+`Prob:` Given two sorted arrays of distinct elements. There is only 1 difference between the arrays. First array has one element extra added in between. Find the index of the extra element.
 
 Example 1:
 ```
@@ -37,9 +39,6 @@ Expected Auxiliary Space: O(1).**
 - 2<=N<=10<sup>4</sup><br>
 - 1<=A <sub>i</sub> <=10 <sup>5</sup>
 </em>
-
-
-   `Arrays` `Searching`
 
 >JAVA CODE Solutions
 <p>
