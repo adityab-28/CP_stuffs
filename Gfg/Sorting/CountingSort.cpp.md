@@ -18,7 +18,7 @@ Explanation:
 ```
 
 <p><details>
-<summary>Click to view more... :fingers_up:</summary>
+  <summary><em>Click to view more... :point_down:</em></summary>
 
 Example 2:
 ```
@@ -40,7 +40,7 @@ The printing is done by the driver code.
 Expected Auxiliary Space: O(N).*
 
 **Constraints:**
-- 1 ≤ N ≤ 10<sup> 5</sup>
+- _1 ≤ N ≤ 10_<sup><em>5</em></sup>
 
 > C++ Solution Code 
  
@@ -108,4 +108,5 @@ int main()
 2) Modify the count array such that each element at each index stores the sum of previous counts. The modified count array indicates the position of each object in the output sequence.
 3) Output each object from the input sequence followed by decreasing its count by 1.
 
+ Link : [problems/counting-sort/1](https://practice.geeksforgeeks.org/problems/counting-sort/1)
 </details> </p>
