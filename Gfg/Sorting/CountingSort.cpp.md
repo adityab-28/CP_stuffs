@@ -14,7 +14,7 @@ Input:
 Output: 
   "abdes"
 Explanation: 
-  In lexicographical order, _string_ will be "abdes".
+  In lexicographical order, string will be "abdes".
 ```
 
 <p><details>
@@ -105,9 +105,7 @@ int main()
 
 **Algorithm:**
 1) Take a count array to store the count of each unique object.
-
 2) Modify the count array such that each element at each index stores the sum of previous counts. The modified count array indicates the position of each object in the output sequence.
-
 3) Output each object from the input sequence followed by decreasing its count by 1.
 
 </details> </p>
