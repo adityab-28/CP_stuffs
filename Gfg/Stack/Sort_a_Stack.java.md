@@ -1,38 +1,40 @@
 <h2 align="center">Sort a stack</h2>
 
-> _Easy Accuracy: 50.51% Submissions: 51803 Points: 2_
+> _`Stack`_
 
 Given a stack, the task is to sort it such that the top of the stack has the greatest element.
 
 Example 1:
 ```
 Input:
-Stack: 3 2 1
+  Stack: 3 2 1
+
 Output: 3 2 1
 ```    
 Example 2:
 ```
 Input:
-Stack: 11 2 32 3 41
+  Stack: 11 2 32 3 41
+
 Output: 41 32 11 3 2
 ```   
 
-> **Task:**
+**Task:**
 
-You don't have to read input or print anything.<br>
-The task is to complete the function sort() which sorts the elements present in the given stack.<br>
+The task is to complete the function `sort()` which sorts the elements present in the given stack.<br>
 _(The sorted stack is printed by the driver's code by popping the elements of the stack.)_
 
 
-**Expected Time Complexity: O(N*N) <br>
+**Expected Time Complexity: O(N<sup>2</sup>) <br>
 Expected Auxilliary Space: O(N) recursive.**
 
-**Constraints:**
-  1<=N<=100
+***Constraints:***
+- _1<=N<=100_
 
 
 > **JAVA Solution Code**  
-```
+
+```JAVA
   import java.util.Scanner;
   import java.util.Stack;
   class SortedStack{
@@ -85,4 +87,4 @@ Expected Auxilliary Space: O(N) recursive.**
 
 ![image](https://user-images.githubusercontent.com/72013227/134977823-1a3b51eb-5c48-4d37-b148-e994e5f9f7af.png)
 
-[Problem Link](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#).
+⚫ [Goto Page](https://practice.geeksforgeeks.org/problems/sort-a-stack/1#).
