@@ -1,4 +1,4 @@
-<h3 align="center"> Triplets with sum with given range </h3>
+<h3 align="center"> Triplets with sum with given range </h3><hr>
 
 #### `Prob:`
 Given an array Arr[] of N distinct integers and a range from L to R, the task is to count the number of triplets having a sum in the range [L, R].
@@ -105,9 +105,10 @@ int main() {
 } 
 ```
 </p>
-	
-<hr size="2">
+
 
 > **Comments :** <br>
 
-To count the number of triplets having their sum in the given range.<br>And the same concept is used in counting the no. of tringles possible with given array of numbers.
+-	To count the number of triplets having their sum in the given range.<br>And the same concept is used in counting the no. of tringles possible with given array of numbers.
+
+↪️[Goto Page](https://practice.geeksforgeeks.org/problems/triplets-with-sum-with-given-range/1/)
