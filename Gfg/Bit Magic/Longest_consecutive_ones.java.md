@@ -1,6 +1,6 @@
 <h3 align="center"> Longest Consecutive 1's </h3>
 
-> _Easy Accuracy: 57.61% Submissions: 19084 Points: 2_
+> _`Bit Magic`_
 
 Given a number `N`. Find the length of the longest consecutive 1's in its binary representation.
 
@@ -23,7 +23,7 @@ Explanation:
 ```
 
 **Task:**<br> 
-	To complete the function `maxConsecutiveOnes()` which `returns` the `length` of the longest consecutive 1(s) in the binary representation of given `N`.
+To complete the function `maxConsecutiveOnes()` which `returns` the `length` of the longest consecutive 1(s) in the binary representation of given `N`.
 
 **Expected Time Complexity: O(log N).<br>
 Expected Auxiliary Space: O(1).**
@@ -73,6 +73,9 @@ class Main {
 ```
 
 > ***Comments:***
+
+<p><details>
+	<summary>Click to view</summary>
 <em>
 The idea is based on the concept that if we AND a bit sequence with a left shifted version of itself, we’re effectively removing the trailing 1 from every sequence of consecutive 1s.
 
@@ -81,3 +84,4 @@ The idea is based on the concept that if we AND a bit sequence with a left shift
 So the operation N = (N & (N << 1)) reduces length of every sequence of 1s by one in binary representation of N. 
 If we keep doing this operation in a loop, we end up with N = 0. The number of iterations required to reach 0 is actually length of the longest consecutive sequence of 1s.
 </em>
+	</detials></p>
