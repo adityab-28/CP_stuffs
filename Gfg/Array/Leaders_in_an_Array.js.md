@@ -1,8 +1,6 @@
-<h2 align="center"> Leader in an Array </h2>
+<h3 align="center"> Leader in an Array </h3>
 
-> *Easy Accuracy: 49.96% Submissions: 88053 Points: 2*
-
-### `Prob:`
+#### `Prob:`
 
 Given an array A of positive integers. Your task is to find the leaders in the array.
 
@@ -16,10 +14,13 @@ Example 1:
 Input:
   n = 6
   A[] = {16,17,4,3,5,2}
+
 Output: 17 5 2
+
 Explanation: 
   The first leader is 17 as it is greater than all the elements to its right.
-  Similarly, the next leader is 5. The right most element is always a leader so it is also included.
+  Similarly, the next leader is 5.
+  The right most element is always a leader so it is also included.
 ```
 
 Example 2:
@@ -27,19 +28,21 @@ Example 2:
 Input:
   n = 5
   A[] = {1,2,3,4,0}
+
 Output: 4 0
 ```
 
 **Your Task:**<br>
-  You don't need to read input or print anything. The task is to complete the function `leader()` which takes array A and n as input parameters and `returns` an array of leaders in order of their appearance.
+  The task is to complete the function `leader()` which takes array A and n as input parameters and `returns` an array of leaders in order of their appearance.
 
 **Expected Time Complexity:  O(n)<br>
 Expected Auxiliary Space:  O(n)**
 <br>
 
 ***`Constraints:`***
-- _1 <= n <= 107_
-- _0 <= Ai <= 107_
+- _1 <= n <= 10<sup>7_</sup>
+- _0 <= A<sub>i</sub> <= 10<sup>7_</sup>
+<br>
 
 
 > **JavaScript Solution Code**
@@ -132,7 +135,7 @@ class Solution {
 
 ```
 
-> <b>Comments :-<b>
+> <b>Comments :-</b>
  
 `Logic/Approach`<br>
 - The  main catch in this problem is to traverse from back-side. If we try to see from left to right, the it will be very difficult to find any soltion with time complexed O(n) time complexity.
@@ -142,4 +145,4 @@ class Solution {
 
 ---
 
-Link :- [https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1/?track=md-arrays&batchId=144](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1/?track=md-arrays&batchId=144)
+[Goto Page:point_left:](https://practice.geeksforgeeks.org/problems/leaders-in-an-array-1587115620/1/?track=md-arrays&batchId=144)
