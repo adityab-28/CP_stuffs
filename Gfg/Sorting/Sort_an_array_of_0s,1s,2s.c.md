@@ -110,7 +110,8 @@ int main() {
 	<details>
 		<summary><strong><em>Comments:</em></strong></summary>
 <br>
-These are the folowing steps:-
+These are the folowing steps:
+
 -	Maintain 3 variables low, high and mid
 	- low - all elements before low are 0
 	- mid - all elements between low and mid are 1
