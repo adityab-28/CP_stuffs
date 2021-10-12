@@ -1,43 +1,55 @@
-    Given an array of strings, return all groups of strings that are anagrams. The groups must be created in order of their appearance in the original array. Look at the sample case for clarification.
+<h3 align="center"> Print Anagrams Together</h3>
 
-    Example 1:
-      Input:
-        N = 5
-        words[] = {act,god,cat,dog,tac}
-        Output: 
-        god dog
-        act cat tac
-      Explanation:
-        There are 2 groups of
-        anagrams "god", "dog" make group 1.
-        "act", "cat", "tac" make group 2.
-    
-    Example 2:
-     Input:
-      N = 3
-      words[] = {no,on,is}
-    Output: 
-      no on
-      is
-    Explanation:
-      There are 2 groups of
-      anagrams "no", "on" make group 1.
-      "is" makes group 2. 
+> _`String`	, `Hash`_
 
-    Your Task:
-      The task is to complete the function Anagrams() that takes a list of strings as input and returns a list of groups such that each group consists of all the strings that are anagrams.
+Given an array of strings, return all groups of strings that are anagrams. The groups must be created in order of their appearance in the original array. Look at the sample case for clarification.
 
-    Expected Time Complexity: O(N*|S|*log|S|), where |S| is the length of the strings.
-    Expected Auxiliary Space: O(N*|S|), where |S| is the length of the strings.
-    
-    Constraints:
-        1<=N<=100
-          
-    Topic Tags:
-        String, Hash
+Example 1:
+```
+Input:
+	N = 5
+	words[] = {act,god,cat,dog,tac}
+	Output: 
+	god dog
+	act cat tac
+Explanation:
+	There are 2 groups of
+	anagrams "god", "dog" make group 1.
+	"act", "cat", "tac" make group 2.
+```
 
-/****************************--------------------  Code ------------------------------***********************/
+Example 2:
+```
+Input:
+	N = 3
+	words[] = {no,on,is}
+Output: 
+	no on
+	is
+Explanation:
+	There are 2 groups of
+	anagrams "no", "on" make group 1.
+	"is" makes group 2. 
+```
 
+**Task:**<br>
+
+The task is to complete the function `Anagrams()` that takes a list of strings as input and `returns` a list of groups such that each group consists of all the strings that are anagrams.
+
+
+Expected Time Complexity: O(N\*|S|\*log|S|), 		_where |S| is the length of the strings._<br>
+Expected Auxiliary Space: O(N*\|S|), 		_where |S| is the length of the strings._
+
+
+***Constraints:***
+- 1<=N<=100
+
+>	**Java Solution Code:**
+
+<p><details>
+	<summary>Driver Code	<em>(Click to View) </em></summary>
+
+```Java
 import java.io.*;
 import java.util.*;
 
@@ -77,8 +89,11 @@ class GFG {
           t--;
 	    }
 	}    
-}
+} // Driver Code Ends
+```
+</details></p>
 
+```Java
 class Solution {
     public List<List<String>> Anagrams(String[] string_list) {
         // Code here
@@ -100,3 +115,12 @@ class Solution {
         return list;
     }
 }
+```
+
+> ***Comments:***
+
+Hint:
+1. Sort each word separately and then compare it to others to find anagrams.
+2. Use hash map to compare words and store their relative order.
+	
+↪️ [Goto Page](https://practice.geeksforgeeks.org/problems/print-anagrams-together/1)
