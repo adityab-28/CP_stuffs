@@ -115,5 +115,14 @@ class Solution
 ```
 
 <p><details>
-	<summary><em><b>Comments: </b></em></summary>
-	</details></p>
+<summary><em><b>Comments: </b></em></summary>
+
+
+1. Sort the elements of the array. Sorting would help you to maintain the condition that  for any three sides of  the triangle  a, b and c, max(a,b) <=c.
+
+2. Now, traverse for each pair of element in the array and make the count of triplets such that (a+b)>c.
+	
+
+- [Goto Page 👈](https://practice.geeksforgeeks.org/problems/count-possible-triangles-1587115620/1)
+
+</details></p>
