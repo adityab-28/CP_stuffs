@@ -1,6 +1,6 @@
 <h3 align="center"> Sort an array of 0s, 1s and 2s </h3>
 
-> *`Arrays`,		`Sorting`*
+> *`Arrays`	,	`Sorting`*
 
 #### `Prob:`
 Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order.
@@ -124,5 +124,6 @@ These are the folowing steps:
 	-	else we just increement mid (i.e element is equla to 1)
 - This method ensures partition, as low and high maintain elements according to their values, and then change their positions, ensuring all elements before low are lower than low_value and all elements after high are higher than high_value.
 	
+➡️ [Goto Page :point_left:](https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s4231/1) 
 	</details>
 </p>
