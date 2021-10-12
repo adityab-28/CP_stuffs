@@ -1,47 +1,55 @@
-        /*****  _______________________________________  Count the number of possible triangles ____________________________________________ *****/
-/*
-Medium Accuracy: 45.44% Submissions: 29599 Points: 4
+<h3 align="center"> Count the number of possible triangles </h3>
 
- Prob: Given an unsorted array arr[] of n positive integers. Find the number of triangles that can be formed with three different array elements as lengths of three sides of triangles. 
+> _`Arrays`, `Sorting`_
 
-        Example 1:
-        Input: 
-          n = 3
-          arr[] = {3, 5, 4}
-        Output: 
-          1
-        Explanation: 
-          A triangle is possible 
-          with all the elements 5, 3 and 4.
-        
-        Example 2:
-        Input: 
-          n = 5
-          arr[] = {6, 4, 9, 7, 8}
-        Output: 
-          10
-        Explanation: 
-          There are 10 triangles
-          possible  with the given elements like
-          (6,4,9), (6,7,8),...
-  -----------------------
-    
-    Your Task: 
-        This is a function problem. You only need to complete the function findNumberOfTriangles() that takes arr[] and n as input parameters and returns the count of total possible triangles.
+#### `Prob:`
 
-        Expected Time Complexity: O(n2).
-        Expected Space Complexity: O(1).
+Given an unsorted array arr[] of n positive integers. Find the number of triangles that can be formed with three different array elements as lengths of three sides of triangles. 
 
-        Constraints:
-        3 <= n <= 103
-        1 <= arr[i] <= 103
+Example 1:
+```
+Input: 
+  n = 3
+  arr[] = {3, 5, 4}
+Output: 
+  1
+Explanation: 
+  A triangle is possible 
+  with all the elements 5, 3 and 4.
+```
 
-        Company Tags
-        Topic Tags
-         Arrays Sorting
-*/
-                /*** ---___---___---___---___---___---___---___---___--- ____ My Solution   ___---___---___---___---___---___---___---___---___--- ***/
+Example 2:
+```
+Input: 
+  n = 5
+  arr[] = {6, 4, 9, 7, 8}
+Output: 
+  10
+Explanation: 
+  There are 10 triangles
+  possible  with the given elements like
+  (6,4,9), (6,7,8),...
+``` 
 
+> **Task:** <br>
+  This is a function problem. You only need to complete the function findNumberOfTriangles() that takes arr[] and n as input parameters and returns the count of total possible triangles.
+
+
+*Expected Time Complexity: O(n<sup>2</sup>).<br>
+Expected Space Complexity: O(1).*
+
+> **`Constraints:`**
+
+- _3 <= n <= 10<sup>3</sup>_
+- _1 <= arr[i] <= 10<sup>3</sup>_
+
+
+> JAVA Solution Code: 
+
+<p><details>
+<summary>Driver Code <i>(Click to Expand)</i></summary>
+
+```JAVA
 //Initial Template for Java
 import java.io.*;
 import java.util.*;
@@ -77,8 +85,11 @@ class GFG
             t--;
         }
     }
-}
+} // Driver Code Ends Here
+```
+</details></p>
 
+```JAVA
 class Solution
 {
     static int findNumberOfTriangles(int arr[], int n)
@@ -101,3 +112,8 @@ class Solution
         return count;
     }
 }
+```
+
+<p><details>
+	<summary><em><b>Comments: </b></em></summary>
+	</details></p>
