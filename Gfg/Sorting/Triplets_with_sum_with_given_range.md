@@ -1,9 +1,9 @@
 <h3 align="center"> Triplets with sum with given range </h3>
 
+#### `Prob:`
+Given an array Arr[] of N distinct integers and a range from L to R, the task is to count the number of triplets having a sum in the range [L, R].
 
-#### `Prob:` Given an array Arr[] of N distinct integers and a range from L to R, the task is to count the number of triplets having a sum in the range [L, R].
-
-> Example 1:
+Example 1:
 ```
 Input:
   N = 4
@@ -15,7 +15,7 @@ Explaination:
   having sum 10 in range [7, 11].
 ```
 
-> Example 2:
+Example 2:
 ```
 Input:
   N = 5
@@ -26,21 +26,24 @@ Explaination:
   There two triplets having sum in range [2, 7] are {1,4,2} and {1,3,2}.
 ```
 
-#### `Task:` Task is to complete the function countTriplets() which takes the array Arr[] and its size N and L and R as input parameters and returns the count.
+#### `Task:`
+Task is to complete the function `countTriplets()` which takes the array Arr[] and its size N and L and R as input parameters and returns the count.
 
-**Expected Time Complexity: O(N2)<br>
-Expected Auxiliary Space: O(1)**
+<b>Expected Time Complexity: O(N<sup>2</sup>)<br>
+Expected Auxiliary Space: O(1)</b>
 
 ***Constraints:***
-- 1 ≤ N ≤ 103
-- 1 ≤ Arr[i] ≤ 103
-- 1 ≤ L ≤ R ≤ 109
+- 1 ≤ N ≤ 10<sup>3</sup>
+- 1 ≤ Arr[i] ≤ 10<sup>3</sup>
+- 1 ≤ L ≤ R ≤ 10<sup>9</sup>
 
-> ***Topic Tags: `Sorting`***
 
-### **`C++` Code Solution**
+> **`C++` Code Solution**
 
-```
+<p><details>
+<summary>Driver Code<i>(Click to Expand)</i></summary>
+		
+```C++
 #include<bits/stdc++.h> 
 using namespace std; 
 
@@ -78,8 +81,13 @@ class Solution {
         int L_val = countSum(Arr, N, L-1);
         return R_val-L_val;
     }
-};
-// { Driver Code Starts.
+}; // { Driver Code Starts.
+```
+</details></p>
+
+<p>
+
+```CPP
 int main() {
     int t;
     cin >> t;
@@ -96,8 +104,10 @@ int main() {
     return 0;
 } 
 ```
-
+</p>
+	
 <hr size="2">
 
 > **Comments :** <br>
+
 To count the number of triplets having their sum in the given range.<br>And the same concept is used in counting the no. of tringles possible with given array of numbers.
