@@ -1,9 +1,8 @@
 <h3 align="center"> Counting Sort </h3>
 
-> _Easy Accuracy: 50.34% Submissions: 18575 Points: 2_
+> _`Arrays` , `Sorting`_
 
 #### `Prob:`
-
 Given a string arr consisting of lowercase english letters, arrange all its letters in lexicographical order using Counting Sort.
 
 Example 1:
@@ -102,11 +101,12 @@ int main()
 <p>
 <details>
 <summary><strong><em>Comments: </em></strong></summary>
-
+<br>
+  
 **Algorithm:**
 1) Take a count array to store the count of each unique object.
 2) Modify the count array such that each element at each index stores the sum of previous counts. The modified count array indicates the position of each object in the output sequence.
 3) Output each object from the input sequence followed by decreasing its count by 1.
 
- Link : [problems/counting-sort/1](https://practice.geeksforgeeks.org/problems/counting-sort/1)
+- [Goto Page :point_left:](https://practice.geeksforgeeks.org/problems/counting-sort/1)
 </details> </p>
