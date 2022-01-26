@@ -77,8 +77,12 @@ class Solution
     bool matching(char a, char b){
         return ((a=='(' && b==')') || (a=='{' && b=='}')||(a=='[' && b==']'));
     }
-
 };
+```
+<p><details>
+<summary> Driver's Code <i>(Click to Expand)</i></summary>
+
+```CPP
 // { Driver Code Starts.
 int main()
 {
@@ -96,5 +100,8 @@ int main()
    }
 }  // } Driver Code Ends
 ```
+</details></p>
+
+Comments: -
 - [GFG Problem Link](https://practice.geeksforgeeks.org/problems/parenthesis-checker2744/1)
 - [LeetCodes Problem Link](https://leetcode.com/problems/valid-parentheses/)
